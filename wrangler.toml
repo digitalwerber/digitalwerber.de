@@ -2,6 +2,9 @@ name = "digitalwerber"
 type = "webpack"
 workers_dev = false
 route = "digitalwerber.de/*"
+kv-namespaces = [ 
+    { binding = "TWEETS", id = "4b48ffb0bfda4ec2acae48023879028c" } 
+]
 
 [site]
 bucket = "./build"
