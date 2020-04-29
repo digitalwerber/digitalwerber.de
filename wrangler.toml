@@ -1,0 +1,8 @@
+name = "digitalwerber"
+type = "webpack"
+workers_dev = false
+route = "digitalwerber.de/*"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
