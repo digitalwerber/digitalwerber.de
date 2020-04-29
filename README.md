@@ -1,3 +1,9 @@
+# 🏠 `digitalwerber.de`
+> Landing Page of Michael Müller, Web Developer
+
+![CI](https://github.com/digitalwerber/digitalwerber.de/workflows/CI/badge.svg?branch=master)
+[![dependencies Status](https://david-dm.org/digitalwerber/digitalwerber.de/status.svg)](https://david-dm.org/digitalwerber/digitalwerber.de)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
