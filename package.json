@@ -35,6 +35,7 @@
     "start": "next start",
     "test": "jest --watch",
     "test:ci": "jest --ci",
+    "test:update": "jest --ci -update",
     "preview": "test -f ./.env.local && eval $(egrep -v '^#' .env.local | xargs) \"wrangler preview --watch\" || wrangler preview --watch",
     "publish": "test -f ./.env.local && eval $(egrep -v '^#' .env.local | xargs) \"wrangler publish\" || wrangler publish"
   },
