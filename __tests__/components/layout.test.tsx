@@ -31,7 +31,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import { render } from "@testing-library/react";
 
 import Layout from "../../components/layout";
-import { generateImage } from 'jsdom-screenshot';
+import { generateImage } from "jsdom-screenshot";
 
 jest.setTimeout(20000);
 
@@ -41,10 +41,13 @@ test("renders logo", () => {
     expect(imageElement).toBeInTheDocument();
 });
 
-test('has no visual regressions', async () => {
-  render(<Layout />);
+test("has no visual regressions", async () => {
+    render(<Layout />);
 
-  const screenshot = await generateImage();
-  console.log(screenshot);
-  expect(screenshot).toMatchImageSnapshot();
+    const screenshot = await generateImage();
+    console.log(screenshot);
+    expect(screenshot).toMatchImageSnapshot({
+        failureThreshold: 2,
+        failureThresholdType: "percent",
+    });
 });
