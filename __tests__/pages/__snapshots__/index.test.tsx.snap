@@ -12,12 +12,12 @@ Array [
     />
   </header>,
   "...",
-  <header
+  <footer
     className="layout__Footer-sc-6432d3-1 iDLXwy"
   >
     <div>
       © 2020 Michael Müller
     </div>
-  </header>,
+  </footer>,
 ]
 `;
