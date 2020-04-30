@@ -7,5 +7,5 @@ kv-namespaces = [
 ]
 
 [site]
-bucket = "./build"
+bucket = "./out"
 entry-point = "workers-site"

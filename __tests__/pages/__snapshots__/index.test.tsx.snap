@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+Array [
+  <header
+    className="layout__Header-sc-6432d3-0 fqPhXB"
+  >
+    <img
+      alt="Logo"
+      className="layout__Logo-sc-6432d3-6 dRKdZu"
+      src="/logo.png"
+    />
+  </header>,
+  "...",
+  <header
+    className="layout__Footer-sc-6432d3-1 iDLXwy"
+  >
+    <div>
+      © 2020 Michael Müller
+    </div>
+  </header>,
+]
+`;

@@ -17,9 +17,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "jsx": "preserve",
+    "typeRoots": [
+      "src/custom-typings",
+      "node_modules/@types"
+    ]
   },
-  "include": [
+  "exclude": [
+    "node_modules",
     "src"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }
