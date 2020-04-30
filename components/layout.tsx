@@ -46,7 +46,7 @@ const Header = styled.header`
     align-content: space-between;
 `;
 
-const Footer = styled.header`
+const Footer = styled.footer`
     position: fixed;
     bottom: ${margin}rem;
     left: ${margin}rem;
